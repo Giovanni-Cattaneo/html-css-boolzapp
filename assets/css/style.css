@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    border: 1px dashed black;
 }
 
 :root{
@@ -11,7 +10,9 @@
     --boolzap-background-secondary: #009688;
     --boolzap-notification: #8edafc;
     --boolzap-dark: #eaeaea;
+    --boolzap-darker: #b1b1b1;
     --boolzap-chat: #d5f9ba;
+    --boolzap-lightest: white;
 }
 
 .d-flex{
@@ -23,7 +24,49 @@
     height: 800px;
     margin: auto;
     margin-top: 3rem;
-    background-color: red;
+}
+
+#left{
+    flex-direction: column;
+    width: 30%;
+
+    & #avatar{
+        border-right: 0.5px solid var(--boolzap-darker);
+    }
+}
+
+#left > div{
+    padding: 2rem;
+}
+
+#right > div{
+    padding: 2rem;
+}
+
+#right{
+    width: 70%;
+    flex-direction: column;
+
+    & #chat-text{
+        height: 80%;
+    }
+}
+
+#avatar, #chat-intestation, #search-bar{
+    background-color: var(--boolzap-dark);
+}
+
+#notification{
+    background-color: var(--boolzap-notification);
+}
+
+.contact-list{
+    background-color: var(--boolzap-lightest);
+    border-bottom: 0.5px solid var(--boolzap-darker);
+}
+
+#write-message{
+    background-color: var(--boolzap-dark);
 }
 
 @media screen and (max-width: 991px) {
