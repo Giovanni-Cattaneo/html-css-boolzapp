@@ -27,7 +27,7 @@ body{
     width: 90%;
     margin: auto;
     margin-top: 3rem;
-    max-width: 1920px;
+    max-width: 1440px;
 }
 
 #left{
@@ -62,7 +62,7 @@ body{
 
 #chat-text p{
     width: 60%;
-    max-height: 250px;
+    max-height: 300px;
 }
 
 #chat-text p:nth-child(1){
