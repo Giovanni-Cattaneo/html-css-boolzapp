@@ -28,6 +28,7 @@ body{
     margin: auto;
     margin-top: 3rem;
     max-width: 1440px;
+    justify-content: center;
 }
 
 #left{
@@ -97,8 +98,8 @@ body{
     flex-direction: column;
     width: 100%;
     background-color: var(--boolzap-lightest);
-    overflow-y: scroll;
     max-height: 58vh;
+    overflow-y: scroll;
 }
 
 #write-message{
