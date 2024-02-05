@@ -61,7 +61,7 @@ body{
 }
 
 #chat-text p{
-    width: 52%;
+    width: 60%;
     max-height: 250px;
 }
 
@@ -106,12 +106,8 @@ body{
 }
 
 @media screen and (max-width: 991px) {
-
-}
-
-@media screen and (max-width: 540px) {
     #left{
-        width: 15%;
+        width: 10%;
     }
 
     #left > div span, #notification, #search-bar{
@@ -119,10 +115,16 @@ body{
     }
 
     #right{
-        width: 85%;
+        width: 90%;
     }
 
     #contact-container{
         max-height: 92vh;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #left{
+        display: none;
     }
 }
