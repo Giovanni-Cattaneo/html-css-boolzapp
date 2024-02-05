@@ -97,6 +97,8 @@ body{
     flex-direction: column;
     width: 100%;
     background-color: var(--boolzap-lightest);
+    overflow-y: scroll;
+    max-height: 58vh;
 }
 
 #write-message{
@@ -118,5 +120,9 @@ body{
 
     #right{
         width: 85%;
+    }
+
+    #contact-container{
+        max-height: 92vh;
     }
 }
