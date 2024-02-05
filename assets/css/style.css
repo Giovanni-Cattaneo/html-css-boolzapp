@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --boolzap-background-primary: #dbdbd3;
+    --boolzap-background-secondary: #009688;
+    --boolzap-notification: #8edafc;
+    --boolzap-dark: #eaeaea;
+    --boolzap-chat: #d5f9ba;
+}
