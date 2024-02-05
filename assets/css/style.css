@@ -143,6 +143,10 @@ body{
         max-height: 92vh;
         align-items: center;
     }
+
+    #avatar > div{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 540px) {
