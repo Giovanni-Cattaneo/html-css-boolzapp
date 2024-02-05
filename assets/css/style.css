@@ -80,7 +80,7 @@
         width: 15%;
     }
 
-    #left > div span{
+    #left > div span, #notification, #search-bar{
         display: none;
     }
 
