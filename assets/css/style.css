@@ -1,3 +1,5 @@
+/* #region common */
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -14,14 +16,25 @@
     --boolzap-chat: #d5f9ba;
     --boolzap-lightest: white;
 }
+/* #endregion common */
+
+/* #region utilities */
+.d-flex{
+    display: flex;
+}
+
+#avatar, #chat-intestation, #search-bar{
+    background-color: var(--boolzap-dark);
+}
+/* #endregion utilities */
+
 
 body{
     background-color: var(--boolzap-background-secondary);
 }
 
-.d-flex{
-    display: flex;
-}
+
+/* #region app */
 
 #app{
     width: 90%;
@@ -30,6 +43,8 @@ body{
     max-width: 1440px;
     justify-content: center;
 }
+
+/* #region left */
 
 #left{
     flex-direction: column;
@@ -44,9 +59,31 @@ body{
     padding: 2rem;
 }
 
-#right > div{
+
+#notification{
+    background-color: var(--boolzap-notification);
+}
+
+.contact-list{
+    background-color: var(--boolzap-lightest);
+    border-bottom: 0.5px solid var(--boolzap-darker);
     padding: 2rem;
 }
+
+#contact-container{
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--boolzap-lightest);
+    max-height: 58vh;
+    overflow-y: scroll;
+}
+
+#avatar{
+    justify-content: space-between;
+}
+/* #endregion left */
+
+/* #region right */
 
 #right{
     width: 70%;
@@ -79,29 +116,6 @@ body{
     border-radius: 1rem;
 }
 
-
-#avatar, #chat-intestation, #search-bar{
-    background-color: var(--boolzap-dark);
-}
-
-#notification{
-    background-color: var(--boolzap-notification);
-}
-
-.contact-list{
-    background-color: var(--boolzap-lightest);
-    border-bottom: 0.5px solid var(--boolzap-darker);
-    padding: 2rem;
-}
-
-#contact-container{
-    flex-direction: column;
-    width: 100%;
-    background-color: var(--boolzap-lightest);
-    max-height: 58vh;
-    overflow-y: scroll;
-}
-
 #write-message{
     background-color: var(--boolzap-dark);
 }
@@ -116,10 +130,16 @@ body{
     flex-direction: column;
 }
 
-#avatar{
-    justify-content: space-between;
+#right > div{
+    padding: 2rem;
 }
 
+/* #endregion right */
+
+/* #endregion app */
+
+
+/* #region media-query */
 @media screen and (max-width: 991px) {
     #left{
         width: 10%;
@@ -161,3 +181,4 @@ body{
         display: none;
     }
 }
+/* #endregion media-query */
