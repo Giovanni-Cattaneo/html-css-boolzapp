@@ -105,13 +105,33 @@ body{
     background-color: var(--boolzap-dark);
 }
 
+#chat-intestation{
+    justify-content: space-between;
+}
+
+#name{
+    flex-direction: column;
+}
+
+#name::before{
+}
+
 @media screen and (max-width: 991px) {
     #left{
         width: 10%;
     }
 
+    #left div{
+        width: 100%;
+    }
+
+    #avatar{
+        align-self: center;
+    }
+
     #left > div span, #notification, #search-bar{
         display: none;
+
     }
 
     #right{
@@ -120,6 +140,7 @@ body{
 
     #contact-container{
         max-height: 92vh;
+        align-items: center;
     }
 }
 
