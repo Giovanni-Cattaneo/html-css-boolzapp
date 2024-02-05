@@ -113,7 +113,8 @@ body{
     flex-direction: column;
 }
 
-#name::before{
+#avatar{
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 991px) {
