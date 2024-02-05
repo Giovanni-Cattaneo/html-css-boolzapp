@@ -51,8 +51,30 @@
 
     & #chat-text{
         height: 80%;
+        background-image: url(../img/mine.jpg);
+        flex-direction: column;
+        gap: 2rem;
+        padding: 3rem;
     }
 }
+
+#chat-text p{
+    width: 52%;
+}
+
+#chat-text p:nth-child(1){
+    background-color: var(--boolzap-chat);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    align-self: flex-end;
+}
+
+#chat-text p:nth-child(2){
+    background-color: var(--boolzap-lightest);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
 
 #avatar, #chat-intestation, #search-bar{
     background-color: var(--boolzap-dark);
