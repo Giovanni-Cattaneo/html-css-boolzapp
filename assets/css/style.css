@@ -107,6 +107,8 @@ body{
 
 #chat-intestation{
     justify-content: space-between;
+    max-height: 10%;
+    align-items: center;
 }
 
 #name{
@@ -151,6 +153,10 @@ body{
 
 @media screen and (max-width: 540px) {
     #left{
+        display: none;
+    }
+
+    #icon{
         display: none;
     }
 }
