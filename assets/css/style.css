@@ -179,19 +179,57 @@ body{
     max-height: 300px;
 }
 
-#chat-text p:nth-child(1){
+#chat-text div:nth-child(1){
+    justify-content: flex-end;
+}
+
+#chat-text div:nth-child(1) p{
     background-color: var(--boolzap-chat);
     padding: 0.5rem;
     border-radius: 1rem;
     align-self: flex-end;
 }
 
-#chat-text p:nth-child(2){
+#chat-text div{
+    position: relative;
+}
+
+#chat-text div:nth-child(2) p{
     background-color: var(--boolzap-lightest);
     padding: 0.5rem;
     border-radius: 1rem;
 }
 
+#chat-text p{
+    position: relative;
+}
+
+.fa-chevron-down{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.65rem;
+}
+
+div .fa-chevron-down:nth-child(2){
+    right: 20rem;
+}
+
+#chat-text span{
+    position: absolute;
+    background-color: var(--boolzap-darker);
+    box-shadow: 3px 3px 2px #888888;
+    width: 20%;
+    top: 1.6rem;
+    right: 0.6rem;
+    z-index: 1;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    display: none;
+}
+
+.fa-chevron-down:hover ~ span {
+    display: block;
+}
 #write-message{
     background-color: var(--boolzap-dark);
     border-bottom: 0.5px solid black;
