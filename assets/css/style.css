@@ -85,7 +85,7 @@ body{
     gap: 0.8rem;
 }
 
-#notification-text{
+.notification-text{
     flex-direction: column;
     justify-content: center;
 
@@ -119,7 +119,7 @@ body{
     gap: 1rem;
     position: relative;
 
-    & #notification-text > span{
+    & .notification-text > span{
         text-decoration: none;
     }
 }
@@ -193,11 +193,33 @@ body{
 }
 
 #name{
-    flex-direction: column;
+    align-items: center;
 }
 
 #right > div{
     padding: 2rem;
+}
+
+#right-intestation{
+    justify-content: space-between;
+}
+
+#intestation-name{
+    flex-direction: column;
+}
+
+#icon{
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: var(--boolzap-darker);
+}
+
+#right-intestation > .notification-text {
+    padding-left: 1rem;
+}
+
+.notification-text p{
+    color: var(--boolzap-darker);
 }
 
 /* #endregion right */
@@ -229,11 +251,15 @@ body{
     }
 
     #contact-container{
-        max-height: 75vh;
+        max-height: 73vh;
         align-items: center;
     }
 
     #avatar > div{
+        display: none;
+    }
+
+    .hour{
         display: none;
     }
 }
