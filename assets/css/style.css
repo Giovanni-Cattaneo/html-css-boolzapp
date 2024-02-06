@@ -124,17 +124,23 @@ body{
     align-items: center;
     gap: 1rem;
     position: relative;
+    transition: background-color 200ms;
 
     & .notification-text > span{
         text-decoration: none;
     }
 }
 
+.contact-list:hover{
+   background-color: var(--boolzap-darker);
+
+}
+
 .hour{
     position: absolute;
     right: 1rem;
     top: 1.35rem;
-    color: var(--boolzap-darker);
+    color: var(--boolzap-dark);
 }
 
 #contact-container{
