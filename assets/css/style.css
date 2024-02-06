@@ -30,7 +30,8 @@
 
 
 body{
-    background-color: var(--boolzap-background-secondary);
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #009688 0%, #009688 120px, #eaeaea 120px, #eaeaea 100%);
 }
 
 
@@ -118,6 +119,8 @@ body{
 
 #write-message{
     background-color: var(--boolzap-dark);
+    border-bottom: 0.5px solid black;
+    border-right: 0.5px solid black;
 }
 
 #chat-intestation{
