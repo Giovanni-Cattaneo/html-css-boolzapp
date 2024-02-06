@@ -107,10 +107,26 @@ body{
     padding: 0.2rem;
     background-color: white;
 }
+
 .contact-list{
     background-color: var(--boolzap-lightest);
     border-bottom: 0.5px solid var(--boolzap-darker);
-    padding: 2rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+
+    & #notification-text > span{
+        text-decoration: none;
+    }
+}
+
+.hour{
+    position: absolute;
+    right: 1rem;
+    top: 1.35rem;
+    color: var(--boolzap-darker);
 }
 
 #contact-container{
