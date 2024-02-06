@@ -99,13 +99,15 @@ body{
     }
 }
 
-#search-bar{
-    min-width: 90%;
+.fa-magnifying-glass{
+    padding: 0 1rem 0 0.5rem;
 }
 
 #search-bar span{
     padding: 0.2rem;
     background-color: white;
+    padding-right: 8rem;
+    color: var(--boolzap-darker);
 }
 
 .contact-list{
