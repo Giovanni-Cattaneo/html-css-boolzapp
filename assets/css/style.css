@@ -222,6 +222,22 @@ body{
     color: var(--boolzap-darker);
 }
 
+#write-message{
+    justify-content: space-between;
+    align-items: center;
+}
+
+#write-message span{
+    background-color: var(--boolzap-lightest);
+    color: var(--boolzap-darker);
+    padding: 0.8rem 22rem;
+}
+
+#write-message .fa-solid, #write-message .fa-regular{
+    font-size: 1.5rem;
+    color: grey;
+}
+
 /* #endregion right */
 
 /* #endregion app */
