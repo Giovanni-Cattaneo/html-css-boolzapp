@@ -31,6 +31,7 @@
 
 body{
     height: 100vh;
+    overflow-y: hidden;
     background-image: linear-gradient(to bottom, #009688 0%, #009688 120px, #eaeaea 120px, #eaeaea 100%);
 }
 
