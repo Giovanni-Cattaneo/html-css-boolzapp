@@ -31,6 +31,12 @@
 img{
     border-radius: 50%;
 }
+
+input{
+    width: 90%;
+    padding: 0.5rem 1rem;
+    border-style: none;
+}
 /* #endregion utilities */
 
 
@@ -230,7 +236,6 @@ body{
 #write-message span{
     background-color: var(--boolzap-lightest);
     color: var(--boolzap-darker);
-    padding: 0.8rem 22rem;
 }
 
 #write-message .fa-solid, #write-message .fa-regular{
