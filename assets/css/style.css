@@ -36,6 +36,7 @@ input{
     width: 90%;
     padding: 0.5rem 1rem;
     border-style: none;
+    border-radius: 0.6rem;
 }
 /* #endregion utilities */
 
@@ -245,7 +246,7 @@ body{
 }
 
 #right > div{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 #right-intestation{
@@ -274,6 +275,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 0.8rem;
+    padding: 0 1rem;
 }
 
 #write-message span{
@@ -284,6 +286,10 @@ body{
 #write-message .fa-solid, #write-message .fa-regular{
     font-size: 1.5rem;
     color: grey;
+}
+
+#write-message input{
+    padding: 1.5rem 1rem;
 }
 
 /* #endregion right */
