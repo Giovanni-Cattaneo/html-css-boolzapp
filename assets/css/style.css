@@ -320,7 +320,7 @@ body{
     }
 
     #contact-container{
-        max-height: 73vh;
+        max-height: 82vh;
         align-items: center;
     }
 
@@ -341,5 +341,6 @@ body{
     #icon{
         display: none;
     }
+    
 }
 /* #endregion media-query */
