@@ -234,7 +234,7 @@ body{
 
 #chat-text > div span{
     position: absolute;
-    background-color: var(--boolzap-darker);
+    background-color: var(--boolzap-lightest);
     box-shadow: 3px 3px 2px #888888;
     width: 20%;
     top: 1.6rem;
