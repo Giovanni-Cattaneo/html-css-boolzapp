@@ -36,8 +36,7 @@ input{
     width: 90%;
     padding: 0.5rem 1rem;
     border-style: none;
-    border-radius: 0.6rem;
-
+    
     &:focus-visible{
         outline: none;
     }
@@ -307,6 +306,7 @@ body{
 
 #write-message input{
     padding: 1.5rem 1rem;
+    border-radius: 0.6rem;
 }
 
 /* #endregion right */
